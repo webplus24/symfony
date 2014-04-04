@@ -20,7 +20,7 @@ class DefaultController extends Controller
 // создаём задачу и присваиваем ей некоторые начальные данные для примера
         $task = new Product();
 
-        $task->setDescription(array('Write a blog post','Write a blog post','Write a blog post'));
+        //$task->setDescription(array('Write a blog post','Write a blog post','Write a blog post'));
       //  $task->setDueDate(new \DateTime('tomorrow'));
 
         $form = $this->createFormBuilder($task)
