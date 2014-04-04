@@ -1,0 +1,14 @@
+{% extends 'AcmeTestBundle::layout.html.twig' %}
+
+{% block content %}
+
+{{ form(form) }}
+
+
+    <ul>
+      {% for item in products %}
+        <li>{{ item.name }}</li>
+      {% endfor %}
+    </ul>
+
+{% endblock %}

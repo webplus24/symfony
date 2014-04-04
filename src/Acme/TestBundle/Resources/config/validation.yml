@@ -1,0 +1,8 @@
+# src/Acme/BlogBundle/Resources/config/validation.yml
+Acme\TestBundle\Entity\Author:
+    properties:
+        task:
+            - NotBlank: ~
+        dueDate:
+            - NotBlank: ~
+            - Type: \DateTime
